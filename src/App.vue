@@ -1,28 +1,31 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+	<v-app id="app">
+		<v-container fluid>
+			<VueTextEditorFy
+				:item="{
+					id: 1,
+					text: 'Dummy Text',
+					bold: false,
+					italic: false,
+					color: '#000',
+					background: '#607D8B',
+					fontSize: 'body-2',
+					fontFamily: 'sans-serif',
+				}"
+			></VueTextEditorFy>
+		</v-container>
+	</v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VueTextEditorFy from "./components/VueTextEditorFy";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+	name: "App",
+	components: {
+		VueTextEditorFy,
+	},
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
