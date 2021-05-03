@@ -6,8 +6,8 @@
 ## Requirements
 
 ```
-"vue": "2.*",
-"vuetify": "2.*"
+"vue": "^2.*",
+"vuetify": "^2.4.*"
 ```
 
 ## Installation
@@ -48,7 +48,6 @@ components:{
     background: '#607D8B',
     fontSize: 'body-2',
     fontFamily: 'sans-serif',
-
   }"
 ></VueTextEditorFy>
 ```
@@ -62,7 +61,9 @@ components:{
     bold: false,
     italic: false,
     color: '#000',
-    background: '#607D8B'
+    background: '#607D8B',
+    fontSize: 'title',
+    fontFamily: 'monospace',
   }"
 ></VueTextEditorFy>
 ```
