@@ -230,7 +230,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .highlight-class-wr {
 	border: 1px solid black;
 }

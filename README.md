@@ -34,25 +34,6 @@ components:{
 ## Basic Usage
 
 **Example-1**
-
-```
-<VueTextEditorFy
-  type="v-text-field"
-  :colors="['#000', '#fff']"
-  :item="{
-    id: 1,
-    text: 'Dummy Text',
-    bold: false,
-    italic: false,
-    color: '#000',
-    background: '#607D8B',
-    fontSize: 'body-2',
-    fontFamily: 'sans-serif',
-  }"
-></VueTextEditorFy>
-```
-**Example-2**
-
 ```
 <VueTextEditorFy
   :item="{
@@ -68,6 +49,24 @@ components:{
 ></VueTextEditorFy>
 ```
 
+**Example-2**
+```
+<VueTextEditorFy
+  type="v-text-field"
+  :solo="true"
+  :colors="['#000', '#fff']"
+  :item="{
+    id: 1,
+    text: 'Dummy Text',
+    bold: false,
+    italic: false,
+    color: '#000',
+    background: '#607D8B',
+    fontSize: 'body-2',
+    fontFamily: 'sans-serif',
+  }"
+></VueTextEditorFy>
+```
 ## Properties
 
 - `item`
@@ -100,8 +99,15 @@ components:{
   - **Default** - ["#F5F5F5", "#FFAC77", "#FFEB3B", "#CDDC39", "#41BBB4", "#FFC107", "#8BC34A", "#F587C7", "#FB8C01", "#4CAF50","#2196F3", "#607D8B","#E53935", "#1A76D2", "#E91E63", "#795548", "#9C27B0", "#000000"]
   - **Support values** - Array of any number of hex color values.
 
+- `solo`
+  - **Type** - boolean
+  - **Required** - No
+  - **Description** - To give text box a card kind of look.
+  - **Default** - false
+  - **Support values** - true/false.
+
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](License) file for details.
+This project is licensed under the MIT License - see the [LICENSE](License) file for details.
 
 
 

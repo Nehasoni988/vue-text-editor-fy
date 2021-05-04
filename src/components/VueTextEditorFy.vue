@@ -12,6 +12,7 @@
 						v-model="field.text"
 						no-resize
 						hide-details
+						:solo="solo"
 						v-on="on"
 						v-bind="attrs"
 						:color="isPropertyExist('background') ? field.background : 'black'"
@@ -91,6 +92,9 @@ export default {
 					"#000000",
 				];
 			},
+		},
+		solo: {
+			default: false,
 		},
 	},
 
