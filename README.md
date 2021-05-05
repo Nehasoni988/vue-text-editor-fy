@@ -106,8 +106,5 @@ components:{
   - **Default** - false
   - **Support values** - true/false.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](License) file for details.
-
 
 
