@@ -1,8 +1,4 @@
 # vue-text-editor-fy
-
-## Demo
-![Demo](./src/assets/demo.gif)
-
 ## Requirements
 
 ```
