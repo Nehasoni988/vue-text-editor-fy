@@ -2,22 +2,6 @@
 	"name": "vue-text-editor-fy",
 	"version": "0.1.1",
 	"private": false,
-	"description": "A vue text editor to beautify the text and text box with elegant editing properties.",
-	"author": {
-		"name": "Neha Soni",
-		"email": "nehaswrankar988@gmail.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Nehasoni988/vue-text-editor-fy"
-	},
-	"bugs": "https://github.com/Nehasoni988/vue-text-editor-fy/issues",
-	"keywords": [
-		"vue2",
-		"vuetify2",
-		"text",
-		"editor"
-	],
 	"files": [
 		"dist/*",
 		"src/index.d.ts"
