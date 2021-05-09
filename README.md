@@ -20,17 +20,29 @@ npm install --save vue-text-editor-fy
 yarn add vue-text-editor-fy
 ```
 
-**Import in any vue component**
+## Declaration
+
+#### Global Import (In main.js file)
 
 ```
+import VueTextEditorFy from "vue-text-editor-fy"
+Vue.component("VueTextEditorFy", VueTextEditorFy);
+```
 
+#### Local Import (In any component)
+
+```
+<script>
 import VueTextEditorFy from "vue-text-editor-fy"
 
-components:{
-  VueTextEditorFy
+export default {
+  name: "HelloWorld"
+  components: {
+    VueTextEditorFy
+  }
 }
+<script>
 ```
-
 ## Basic Usage
 
 **Example-1**

@@ -1,7 +1,23 @@
 {
 	"name": "vue-text-editor-fy",
-	"version": "0.1.2",
+	"description": "A vue2 and vuetify2 based text editor to beautify the text and text box with elegant editing properties.",
+	"version": "0.1.3",
 	"private": false,
+	"author": {
+		"name": "Neha Soni",
+		"email": "nehaswrankar988@gmail.com"
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/Nehasoni988/vue-text-editor-fy"
+	},
+	"bugs": "https://github.com/Nehasoni988/vue-text-editor-fy/issues",
+	"keywords": [
+		"vue2",
+		"vuetify2",
+		"text-editor",
+		"editor"
+	],
 	"files": [
 		"dist/*",
 		"src/index.d.ts"
@@ -10,8 +26,8 @@
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
-		"build-bundle": "vue-cli-service build --target lib --name vue-text-editor-fy ./src/index.js",
-		"publish-package": "npm run build && npm run build-bundle && npm version patch -m \"build: release %s\" && npm publish"
+		"build-library": "vue-cli-service build --target lib --name vue-text-editor-fy ./src/index.js",
+		"publish-package": "npm run build && npm run build-library && npm publish"
 	},
 	"dependencies": {
 		"core-js": "^3.6.5",
